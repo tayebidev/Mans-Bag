@@ -245,10 +245,9 @@ nav {
 }
 /* <!-- t-shirt section end- --> */
 
-/* <!-- customer review section end --> */
+/* <!-- customer review section start --> */
 
 .review-container{
-    border: 01px solid red;
     margin-top: 50px;
     display: flex;
     align-content: center;
@@ -272,4 +271,31 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+/* <!-- customer review section end --> */
+
+
+/* footer section start */
+.footer-container{
+    background-color: #9376e0;
+    align-items: center;
+    text-align: center;
+    max-width: 1440x;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 15px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-img{
+    width: 50px;
+    object-fit: cover;
+    margin-right: 0px;
+    
+}
+.footer-container p{
+    margin-top: -5px;
 }
