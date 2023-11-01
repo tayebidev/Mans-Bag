@@ -1,3 +1,11 @@
+
+@media screen and (max-width:700px) {
+    .grid-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
 @media screen and (max-width:425px) {
     /* Nav section start */
     .nav-container  {
@@ -27,4 +35,12 @@
     .banner-text{
         margin-left: 60px;
     }
+     /* Simple banner section end */
+
+     /* Productions section start */
+    .grid-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
+
+

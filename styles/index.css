@@ -94,17 +94,19 @@ nav {
     font-size: 32px;
     font-family: 'Dancing Script', cursive;
 }
-.icon-container{
-     margin-bottom: 30px;
-     display: flex;
-     justify-content: space-around;
-     width: 60%;
+
+.icon-container {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
 }
 
-.fa-brands{
+.fa-brands {
     font-size: 40px;
 }
-.banner-btn{
+
+.banner-btn {
     background-color: transparent;
     padding: 10px 20px;
     border-radius: 05px;
@@ -114,7 +116,7 @@ nav {
 
 }
 
- .banner-img {
+.banner-img {
     width: 50%;
 }
 
@@ -123,4 +125,53 @@ nav {
     height: 100%;
     border-radius: 05px;
 
+}
+
+/* <!-- Simple banner section end --> */
+
+/* Productions section start */
+.products {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1440px;
+    margin: 50px auto 0;
+    min-height: 50px;
+    gap: 20px;
+}
+
+.single-product {
+    /* width: 30%; */
+    background-color:rgba(112, 128, 144, 0.185);
+    border-radius: 10px;
+    padding: 0 10px;
+    box-shadow: 05px 05px 10px rgba(0, 0, 0, 0.473);
+}
+
+.single-product img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-icon-name-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-icon-name-container span{
+    background-color: #9376e0;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 05px;
+    color: white;
+}
+.product-icon{
+    font-size: 20px;
 }
