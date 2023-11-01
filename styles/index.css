@@ -243,3 +243,33 @@ nav {
     font-size: 20px;
     font-weight: 600;
 }
+/* <!-- t-shirt section end- --> */
+
+/* <!-- customer review section end --> */
+
+.review-container{
+    border: 01px solid red;
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.single-review{
+    border: 01px solid green;
+    flex-basis: 300px;
+    background-color: #e893cfce;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+}
+.single-review img{
+    width: 60px;
+    height: 60px;
+}
+.top-review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
