@@ -1,4 +1,5 @@
 @media screen and (max-width:425px) {
+    /* Nav section start */
     .nav-container  {
         flex-direction: column;
     }
@@ -13,5 +14,17 @@
     }
     .nav-items-container .login-btn{
         width: 100%;
+    }
+    /* Nav section end */
+
+    /* Simple banner section start */
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-text, .banner-img{
+        width: 100%;
+    }
+    .banner-text{
+        margin-left: 60px;
     }
 }
